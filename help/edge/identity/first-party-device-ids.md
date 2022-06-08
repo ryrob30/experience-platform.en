@@ -149,7 +149,7 @@ If the FPID is contained in a cookie being read by the Edge Network when first-p
 }
 ```
 
-The following `identityMap` would result in an error response from the Edge Network since it is missing the `primary` indicator for the FPID. At last one of the IDs present in `identityMap` must be marked as `primary`. 
+The following `identityMap` would result in an error response from the Edge Network since it is missing the `primary` indicator for the FPID. At least one of the IDs present in `identityMap` must be marked as `primary`. 
 
 ```json
 {
